@@ -18,6 +18,7 @@ export async function getUserDetails(accessToken) {
   } catch (err) {
     console.log(`### 💥 ERROR! Failed to get user details ${err.toString()}`)
   }
+}
 
 export async function getUserPhoto(accessToken) {
   try {
